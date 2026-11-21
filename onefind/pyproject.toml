@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "onefind"
 version = "0.1.0"
-description = "One's approach to finding files"
+description = "Find files and directories by name"
 requires-python = ">=3.10"
 dependencies = ["onepatterns>=0.1.0"]
 
 [project.scripts]
-onefile = "onefile.__main__:main"
+onefind = "onefind.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
